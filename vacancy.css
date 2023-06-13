@@ -1,0 +1,31 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+li > a {
+    color: #000;
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.vacancy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.vacancy__item {
+    margin: 16px 12px;
+}
+.card:hover .card-body {
+    background-color: #F7F7F7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.last {
+    background-color: #F7F7F7;
+}
+.last:hover {
+    cursor: default;
+}
